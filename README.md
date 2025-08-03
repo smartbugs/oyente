@@ -1,13 +1,16 @@
-Oyente
-======
+Oyente: An Analysis Tool for Smart Contracts
+============================================
 
-An Analysis Tool for Smart Contracts
-
-[![Gitter][gitter-badge]][gitter-url]
 [![License: GPL v3][license-badge]][license-badge-url]
-[![Build Status](https://travis-ci.org/melonproject/oyente.svg?branch=master)](https://travis-ci.org/melonproject/oyente)
+ 
+This clone of Oyente contains minor modifications necessary for
+its integration into [SmartBugs](https://github.com/smartbugs/smartbugs).
+[Oyente in its original form](https://github.com/enzymefinance/oyente)
+is no longer maintained (last updated in 2020, archived in 2023).  For
+an extension of Oyente that handles recent versions of the EVM and
+Solidity see **[Oyente+](https://github.com/smartbugs/oyente_plus)**.
 
-*This repository is currently maintained by Xiao Liang Yu ([@yxliang01](https://github.com/yxliang01)). If you encounter any bugs or usage issues, please feel free to create an issue on [our issue tracker](https://github.com/melonproject/oyente/issues).*
+The remainder of this Readme is copied from the original repository.
 
 ## Quick Start
 
@@ -155,7 +158,5 @@ Some analytics regarding the number of contracts tested, number of contracts ana
 Checkout out our [contribution guide](https://github.com/melonproject/oyente/blob/master/CONTRIBUTING.md) and the code structure [here](https://github.com/melonproject/oyente/blob/master/code.md).
 
 
-[gitter-badge]: https://img.shields.io/gitter/room/melonproject/oyente.js.svg?style=flat-square
-[gitter-url]: https://gitter.im/melonproject/oyente?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [license-badge]: https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square
 [license-badge-url]: ./LICENSE
